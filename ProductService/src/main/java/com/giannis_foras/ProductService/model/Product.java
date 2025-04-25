@@ -1,5 +1,6 @@
 package com.giannis_foras.ProductService.model;
 
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
