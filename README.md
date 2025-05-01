@@ -68,18 +68,33 @@ This is a full REST API application using Spring Boot. It connects to a PostgreS
 
 ```
 ProductService/
-├── controller/
-├── model/
-├── repository/
-├── service/
-├── security/
-├── resources/
-│   ├── application.properties
-│   └── schema.sql
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/giannis_foras/ProductService/
+│   │   │       ├── controller/
+│   │   │       │   └── ProductController.java
+│   │   │       ├── model/
+│   │   │       │   └── Product.java
+│   │   │       ├── repository/
+│   │   │       │   └── ProductRepository.java
+│   │   │       ├── security/
+│   │   │       │   └── SecurityConfig.java
+│   │   │       ├── service/
+│   │   │       │   ├── ProductService.java
+│   │   │       │   └── ProductServiceImpl.java
+│   │   │       └── ProductServiceApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── static/
+│   │       └── templates/
+│   └── test/
 ├── Dockerfile
 ├── docker-compose.yml
-├── README.md
+├── schema.sql
 ├── pom.xml
+├── .gitignore
+└── README.md
 ```
 
 ### 🚀 How to Run (Spring Boot + PostgreSQL + PgAdmin)
