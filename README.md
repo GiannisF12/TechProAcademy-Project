@@ -166,7 +166,3 @@ INSERT INTO products (name, price) VALUES
 ('Keyboard', 49.99);
 ```
 
----
-
-## 🙌 Thank You
-
