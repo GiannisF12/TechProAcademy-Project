@@ -168,18 +168,5 @@ INSERT INTO products (name, price) VALUES
 
 ---
 
-## ✅ Submission Checklist
-
-- ✅ Java Servlet `ProxySystem` WAR deployed to Tomcat
-- ✅ Spring Boot REST API: Dockerized, secured, connected to PostgreSQL
-- ✅ `schema.sql`, `Dockerfile`, `docker-compose.yml`
-- ✅ Inline documentation and code comments
-- ✅ README with run instructions
-- ✅ Sample API calls (cURL)
-
----
-
 ## 🙌 Thank You
-
-You now have a complete, testable, and documented Java + Spring Boot fullstack backend project. Good luck! 🚀
 
